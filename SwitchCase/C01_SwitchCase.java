@@ -1,6 +1,6 @@
-package day10_ternary_SwitchCase;
+package day10_switchCase;
 
-public class C07_SwitchCase {
+public class C01_switchCase {
 
 	public static void main(String[] args) {
 		// gun numarasina gore gun isimlerini yazalim
