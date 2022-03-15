@@ -1,8 +1,8 @@
-package day12;
+package day11_12_stringManipulations;
 
 import java.util.Scanner;
 
-public class C01_IndexOf {
+public class C05_IndexOf {
 
 	public static void main(String[] args) {
 		// Kullanicidan bir cumle ve bir harf isteyin,

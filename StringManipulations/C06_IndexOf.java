@@ -1,8 +1,8 @@
-package day12;
+package day11_12_stringManipulations;
 
 import java.util.Scanner;
 
-public class C02_IndexOf {
+public class C06_IndexOf {
 
 	public static void main(String[] args) {
 		// Soru2) Kullanicidan bir cumle ve bir kelime isteyin,

@@ -1,4 +1,4 @@
-package day11_stringManipulations;
+package day11_12_stringManipulations;
 
 public class C02_EqualsIgnoreCase {
 
