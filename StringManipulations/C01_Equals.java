@@ -1,4 +1,6 @@
-       package day11_12_stringManipulations;
+       package day11_12_13_stringManipulations;
+
+
 
 public class C01_Equals {
 
@@ -23,10 +25,20 @@ public class C01_Equals {
 		System.out.println(str3==str4); // false
 		System.out.println(str3.equals(str4)); //true
 		
+		
+		
+		
+		
+		
+		
+		
+		
 		// String variable'larda == hem degere hem de referensina bakar dolayisiyla objeler farkli oldugunda
 		// genelde false doner
 		// str1.equals(str2) ise referanslara degil SADECE DEGERE bakar,
 		// eger case sensitive olarak String degerleri ayni ise true doner
 	}
+
+	
 
 }
