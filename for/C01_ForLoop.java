@@ -1,4 +1,4 @@
-package day16_forLoops;
+package day16_17_forLoops;
 
 public class C01_ForLoop {
 
