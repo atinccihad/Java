@@ -2,7 +2,7 @@ package day20_21_22_23_scope_arrays_MDArrays;
 
 import java.util.Arrays;
 
-public class C08_split {
+public class C08_Split {
 
 	public static void main(String[] args) {
 		// "Java ogrenmek cok guzel"
