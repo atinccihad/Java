@@ -1,0 +1,7 @@
+Bilgisayar random olarak rakamlari birbirinden farkli dort basamakli sayi uretir.
+Bu sayiyi bulmak icin dort basamakli ve rakamlari birbirinden farkli sayi girilir.
+Bilgisayar bu iki sayinin rakamlari arasinda karsilastrima yapar,
++ ve - degerlerle geri doner.
++ <--> yeri dogru bilenen sayi adedini,
+- <--> ise yeri yanlis bilinen sayi adedini gosterir.
++4 olana kadar sayi girmeye devam edilmelidir.
