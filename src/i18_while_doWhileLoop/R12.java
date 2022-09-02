@@ -14,9 +14,9 @@ public class R12 {
         int count = 0;
         String str = "Javaisalsoeasy";
 
+
         for (int i = 0; i < str.length(); i++) {
 
         }
-
     }
 }

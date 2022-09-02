@@ -1,12 +1,14 @@
 package i44_collections;
 
+import java.util.Iterator;
 import java.util.ListIterator;
 import java.util.TreeSet;
 
 public class R10 {
     public static void main(String[] args) {
         /*
-        Bir TreeSet yapalım ve elemanlarını önce normal yazdıralım ve ardından  descendingIterator()
+        Bir TreeSet yapalım ve elemanlarını önce normal yazdıralım ve ardından
+        descendingIterator()
         fonksiyonunu kullanarak ters sıradan yazdıralım.
         TreeSet elemanları:  yesil,sari,mavi,turuncu,kirmizi
 
@@ -34,7 +36,11 @@ public class R10 {
         treeSet.add("turuncu");
         treeSet.add("kirmizi");
         System.out.println("Orjinal Tree sonucu: "+treeSet);
-        System.out.println("Tersten Siralanisi:"+"\n"+treeSet.pollLast());
+        Iterator iterator= treeSet.descendingIterator();
+
+
+
+
 
 
 
