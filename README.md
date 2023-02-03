@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://upload.wikimedia.org/wikipedia/tr/2/2e/Java_Logo.svg"/></h1>
+<h5 align="center"><img src="https://upload.wikimedia.org/wikipedia/tr/2/2e/Java_Logo.svg"/></h5>
                                                                              
 Java (programlama dili)
 
