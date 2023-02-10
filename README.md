@@ -60,25 +60,12 @@ javac -encoding UTF-8 MerhabaDünya.java<br>
 javac, yazılan programı derleyerek ".class" uzantılı bir dosya üretir. ".class" sınıf dosyaları JVM'de çalışabilecek bytecode'lar içeren sınıf dosyalarıdır. Örnek uygulamayı çalıştırmak için:<br>
 java MerhabaDünya<br>
 yazabiliriz. Java komutu öncelikle sınıf yolunda "MerhabaDünya" sınıfını arayacaktır. Bulduğu takdirde "MerhabaDünya" sınıfında "main" metodunu arayacaktır. Eğer metot bulunur ise bu metot icra edilecektir.<br>
+<h5>Kapsamlı örnek</h5>
 
-
-
-
-
-
-
-
-
-
-
-Kapsamlı örnek<br>
-package TekCift;<br>
-
-import javax.swing.JOptionPane;<br>
-
+package TekCift;
+import javax.swing.JOptionPane;
 public class TekCift {
-
-	/**
+	/*
 	 * Tam sayı (int ingilizce de integer’ın kısaltmasıdır)
 	 */
 	private int kullanicininGirdigi;
