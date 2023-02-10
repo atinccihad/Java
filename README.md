@@ -67,11 +67,10 @@ Eğer metot bulunur ise bu metot icra edilecektir.<br>
 package TekCift;<br>
 import javax.swing.JOptionPane;<br>
 public class TekCift {<br>
-	<br>/**
+	/*
 	 * Tam sayı (int ingilizce de integer’ın kısaltmasıdır)
 	 */
 	private int kullanicininGirdigi;
-
 	/**
 	 * Bu yapıcı fonksiyondur. TekCift objesi yaratılırken çağrılır.
 	 */
