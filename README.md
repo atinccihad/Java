@@ -66,8 +66,8 @@ Eğer metot bulunur ise bu metot icra edilecektir.<br>
 
 package TekCift;<br>
 import javax.swing.JOptionPane;<br>
-public class TekCift {<br>
-	/*
+public class TekCift {
+	/**
 	 * Tam sayı (int ingilizce de integer’ın kısaltmasıdır)
 	 */
 	private int kullanicininGirdigi;
@@ -101,7 +101,7 @@ public class TekCift {<br>
 		}
 	}
 
-	 /*
+	 /**
 	 * Aşağıdaki fonksiyon kullanıcının girdiği değere göre çift ya da tek
 	 * penceresi gösterir.
 	 */
