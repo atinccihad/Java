@@ -1,8 +1,8 @@
 <h5 align="center"><img src="https://upload.wikimedia.org/wikipedia/tr/2/2e/Java_Logo.svg"/></h5>                                                                       
 <h3>Java (programlama dili)</h3><br>
-Java, Sun Microsystems mühendislerinden James Gosling tarafından geliştirilmeye başlanmış açık kaynak kodlu, nesneye yönelik, platform bağımsız, yüksek verimli, çok işlevli, yüksek seviye, hem yorumlanan hem de derlenen bir dildir.[2]<br>
+Java, Sun Microsystems mühendislerinden James Gosling tarafından geliştirilmeye başlanmış açık kaynak kodlu, nesneye yönelik, platform bağımsız, yüksek verimli, çok işlevli, yüksek seviye, hem yorumlanan hem de derlenen bir dildir.<br>
 Java, Sun Microsystems'den James Gosling tarafından geliştirilen bir programlama dilidir ve 1995 yılında Sun Microsystems'in çekirdek bileşeni olarak piyasaya sürülmüştür. <br>Bu dil C ve C++'dan birçok sözdizim türetmesine rağmen bu türevler daha basit nesne modeli ve daha az düşük seviye olanaklar içerir. Java uygulamaları bilgisayar mimarisine bağlı olmadan herhangi bir Java Sanal Makinesi (Java Virtual Machine - JVM) üzerinde çalışabilen tipik bytecode'dur (sınıf dosyası).<br>
-Java'nın sık kullanılan sloganlarından biri olan, çevirisi "bir defa yaz, her yerde çalıştır" olan "write once, run anywhere - WORA",[3] Java'nın; derlenmiş Java kodunun, Java'yı destekleyen bütün platformlarda tekrar derlenmeye ihtiyacı olmadan çalışabileceğini ima eder.[4] 2016 yılında bildirilen 9 milyon geliştiricisi ile, özellikle istemci sunucu web uygulamaları için olmak üzere, kullanımda olan en popüler programlama dillerinden birisidir.[5][6][7][8]<br>
+Java'nın sık kullanılan sloganlarından biri olan, çevirisi "bir defa yaz, her yerde çalıştır" olan "write once, run anywhere - WORA",[3] Java'nın; derlenmiş Java kodunun, Java'yı destekleyen bütün platformlarda tekrar derlenmeye ihtiyacı olmadan çalışabileceğini ima eder.[4] 2016 yılında bildirilen 9 milyon geliştiricisi ile, özellikle istemci sunucu web uygulamaları için olmak üzere, kullanımda olan en popüler programlama dillerinden birisidir.<br>
 Java ilk çıktığında daha çok küçük cihazlarda kullanılmak için tasarlanmış ortak bir düzlem dili olarak düşünülmüştü. Ancak düzlem bağımsızlığı özelliği ve tekbiçim kütüphane desteği C ve C++'tan çok daha üstün ve güvenli bir yazılım geliştirme ve işletme ortamı sunduğundan, hemen her yerde kullanılmaya başlanmıştır. Özellikle kurumsal alanda ve mobil cihazlarda son derece popüler olan Java özellikle J2SE 1.4 ve 5 sürümü ile masaüstü uygulamalarda da yaygınlaşmaya başlamıştır.<br>
 Java'nın ilk sürümü olan Java 1.0 (1995) Java Platform 1 olarak adlandırıldı ve tasarlama amacına uygun olarak küçük boyutlu ve kısıtlı özelliklere sahipti.<br> 
 Daha sonra düzlemin gücü gözlendi ve tasarımında büyük değişiklikler ve eklemeler yapıldı. Bu büyük değişikliklerden dolayı geliştirilen yeni düzleme Java Platform 2 adı verildi ama sürüm numarası 2 yapılmadı, 1.2 olarak devam etti. 2004 sonbaharında çıkan Java 5, geçmiş 1.2, 1.3 ve 1.4 sürümlerinin ardından en çok gelişme ve değişikliği barındıran sürüm oldu. Java SE 8 ise Java teknolojisinin günümüz sürümüdür. 13 Kasım 2006'da Java düzlemi GPL ruhsatıyla açık kodlu hale gelmiştir.<br>
@@ -37,14 +37,14 @@ Bu Java teknolojisi de, günümüzdeki programcıların takibinde değildir.<br>
 
 <h5>Java yazımı (Sözdizimi)</h5>
 Sınıf temelli nesneye yönelik bir dil olan Java, yazım olarak C++ ile benzerlikler arz eder. Java'nın yanında C#, Perl, JavaScript gibi diller de aynı dil ailesine aittir. "{}" şeklinde süslü parantezler içerisindeki bloklar, ++ arttırma ve — azaltma işleçleri bu dilin belirgin özelliklerindendir.<br>
-Merhaba Dünya!<br>
- // MerhabaDünya.java<br>
- public class MerhabaDünya{<br>
+Hello World!<br>
+ // HelloWorld.java<br>
+ public class HelloWorld{<br>
      public static void main(String[] args) {<br>
-         System.out.println("Merhaba Dünya!");<br>
+         System.out.println("Hello World!");<br>
      }<br>
  }<br>
-•	"MerhabaDünya.java" ile "public class MerhabaDünya" bu kısımda iki isim aynı olmalıdır aksi takdirde uygulama çalıştırılamaz.<br>
+•	"Hello World.java" ile "public class Hello World" bu kısımda iki isim aynı olmalıdır aksi takdirde uygulama çalıştırılamaz.<br>
 •	class: Sınıf tanımlayabilmek için class ön eki şarttır.<br>
 •	public: Sınıfın dışarıdan erişebilir olduğu,<br>
 •	static: Sınıf tarafından paylaşıldığı,<br>
@@ -53,14 +53,14 @@ Merhaba Dünya!<br>
 •	Void'e dönüş tipi (return type) de denir.<br>
 •	String args[]: Parantezin içinde yöntemin aldığı parametreleri belirleriz. "String" sınıf adı, "args" da parametre adıdır. "[]" ise args'ın bir dizi (array) olduğunu belirtiyor.<br>
 •	"System.out.println();" ile yazımızı yazdırıyoruz ve yeni satıra geçmesini sağlıyoruz.<br>
-•	Yazımızı "System.out.print("Merhaba Dunya!");" ile de yazdırabilirdik. Fakat imleç yeni satıra geçmezdi.<br>
+•	Yazımızı "System.out.print("Hello World!");" ile de yazdırabilirdik. Fakat imleç yeni satıra geçmezdi.<br>
 •	Java Türkçe karakterleri (C# gibi) "değişken adlarında, sınıf adlarında" da kullanmamıza imkân tanır.<br>
-Java'da yazdığımız yazılımları derlememiz için öncelikle sınıf adı ile aynı adı taşıyan dosya ismine sahip olmamız gerekmektedir. Yukarıdaki örnek yazılımı sınıf ismi olan "MerhabaDünya" ifadesini kullanıp uzantısı ile beraber "MerhabaDünya.java" ismi ile kaydedebiliriz. J2SDK veya benzer bir Java geliştirme ortamı kurulu sistemimizde yazılan uygulama aşağıdaki şekilde derlenebilir.<br>
-javac -encoding UTF-8 MerhabaDünya.java<br>
+Java'da yazdığımız yazılımları derlememiz için öncelikle sınıf adı ile aynı adı taşıyan dosya ismine sahip olmamız gerekmektedir. Yukarıdaki örnek yazılımı sınıf ismi olan "HelloWorld" ifadesini kullanıp uzantısı ile beraber "HelloWorld.java" ismi ile kaydedebiliriz. J2SDK veya benzer bir Java geliştirme ortamı kurulu sistemimizde yazılan uygulama aşağıdaki şekilde derlenebilir.<br>
+javac -encoding UTF-8 HelloWorld.java<br>
 javac, yazılan programı derleyerek ".class" uzantılı bir dosya üretir. ".class" sınıf dosyaları JVM'de çalışabilecek bytecode'lar içeren sınıf dosyalarıdır. Örnek uygulamayı çalıştırmak için:<br>
-java MerhabaDünya<br>
-yazabiliriz.<br>Java komutu öncelikle sınıf yolunda "MerhabaDünya" sınıfını arayacaktır.
-<br>Bulduğu takdirde "MerhabaDünya" sınıfında "main" metodunu arayacaktır.
+java HelloWorld<br>
+yazabiliriz.<br>Java komutu öncelikle sınıf yolunda "HelloWorld" sınıfını arayacaktır.
+<br>Bulduğu takdirde "HelloWorld" sınıfında "main" metodunu arayacaktır.
 Eğer metot bulunur ise bu metot icra edilecektir.<br>
 <h5>Kapsamlı örnek</h5>
 
